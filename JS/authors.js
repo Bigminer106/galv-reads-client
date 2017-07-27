@@ -13,7 +13,7 @@ $(document).ready(function() {
       const authorPortrait = data[i].portrait;
       const authorID = data[i].id;
       const authorBio = data[i].bio;
-      const authorList = `<center><div class="well"><h3 class="name">${authorFirst}` + ' ' + `${authorLast}</h3><center><a href="#" class="authorClick"><img src="${authorPortrait}" alt="${authorFirst}` + ' ' + `${authorLast}" id="authorPic"></a></center><p class="bio">${authorBio}</p></div></center><br>`;
+      const authorList = `<center><div class="well" id="firstWell"><h3 class="name">${authorFirst}` + ' ' + `${authorLast}</h3><center><a href="#" class="authorClick"><img src="${authorPortrait}" alt="${authorFirst}` + ' ' + `${authorLast}" id="authorPic"></a></center><p class="bio">${authorBio}</p></div></center><br>`;
 
       $('.authorList').append(authorList);
 
