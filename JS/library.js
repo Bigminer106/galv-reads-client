@@ -24,7 +24,7 @@ $(document).ready(() => {
       // bookList const declaration doesn't move from here
       const bookList = `<center><div class="well">
         <h3 class="title">${bookTitle}</h3>
-        <center><a href="#" class="bookClick" data-clicked="${bookID}"><img src="${bookCover}" alt="${bookTitle}" id="listCover"></center>
+        <center><a href="#" class="bookClick" data-clicked="${bookID}"><img src="${bookCover}" alt="${bookTitle}" id="bookImage"></center>
       </a>
       <p class="descript">${bookDescript}</p></div></center><br>`;
 
