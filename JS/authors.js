@@ -1,4 +1,4 @@
-const API_URL = `http://quiet-thicket-77024.herokuapp.com/api/v1/authors`;
+const API_URL = `https://quiet-thicket-77024.herokuapp.com/api/v1/authors`;
 $(document).ready(function() {
   // console.log('hello world');
   // AJAX GET All Request, successful
