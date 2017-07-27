@@ -3,6 +3,6 @@
   width: 125px;
 }
 
-#firstWell {
+#firstWell, #well-top, #top-well {
   margin-top: 70px;
 }
