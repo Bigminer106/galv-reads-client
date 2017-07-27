@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>galvanize-reads</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand btn brandButton"><h4>Galvanize Reads Library</h4></a>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a class="btn authorButton"><span class="glyphicon glyphicon-user"></span><br>Authors</a></li>
+            <li><a class="btn bookButton"><span class="glyphicon glyphicon-book"></span><br>Books</a></li>
+            <li><a class="btn searchButton" v-on:click="toggleSearch()"><span class="glyphicon glyphicon-search"></span><br>Search</a></li>
+          </ul>
+        </div><!--navbar-collapse-->
+      </div><!--container-fluid-->
+    </nav>
+    </header>
+    <main class="container">
+      <div id="wells">
+        <div class="well" id="firstWell">
+          <img src="https://images.duckduckgo.com/iu/?u=http%3A%2F%2Fd202m5krfqbpi5.cloudfront.net%2Fbooks%2F1344722863l%2F14514306.jpg&f=1" id="authImage"><br />
+          <a class="btn authorButton">
+            <h4>Featured Authors</h4>
+          </a>
+        </div>
+        <div class="well">
+          <img src="https://images.duckduckgo.com/iu/?u=http%3A%2F%2Fd202m5krfqbpi5.cloudfront.net%2Fbooks%2F1344722863l%2F14514306.jpg&f=1" id="bookImage"><br />
+          <a class="btn bookButton">
+            <h4>Featured Books</h4>
+          </a>
+        </div>
+        <div class="well">
+          <img src="https://images.duckduckgo.com/iu/?u=http%3A%2F%2Fmedia-cache-ec0.pinimg.com%2F736x%2F4e%2F62%2F40%2F4e624030dd6b8e6a2697129b1fb69b4b.jpg&f=1" id="searchImage"><br />
+          <a class="btn searchButton">
+            <h4>Search the Library!</h4>
+          </a>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="well">
+        <h5>© 2017 | Adam Miner</h5>
+      </div>
+    </footer>
+  </body>
+</html>

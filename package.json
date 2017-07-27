@@ -1,0 +1,20 @@
+{
+  "name": "galv-reads-client",
+  "version": "1.0.0",
+  "description": "Client-side of Galvanize Reads",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bigminer106/galv-reads-client/issues"
+  },
+  "homepage": "https://github.com/Bigminer106/galv-reads-client#readme",
+  "dependencies": {
+    "cors": "^2.8.3"
+  }
+}

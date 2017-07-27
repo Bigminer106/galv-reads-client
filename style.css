@@ -1,0 +1,8 @@
+#bookImage, #authImage, #searchImage {
+  height: 150px;
+  width: 125px;
+}
+
+#firstWell {
+  margin-top: 70px;
+}
