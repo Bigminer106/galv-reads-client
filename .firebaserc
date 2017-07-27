@@ -1,5 +1,6 @@
 {
   "projects": {
-    "GalvReads": "galvreads"
+    "GalvReads": "galvreads",
+    "default": "galvreads"
   }
 }
